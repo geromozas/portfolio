@@ -1,0 +1,35 @@
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+    section {
+        @include flex (row, space-around, center);
+        }
+}
+
+.comienzo {
+    text-align: left;
+}
+
+.githubF {
+    width: 50px;
+}
+
+.linkedinF {
+    width: 50px;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+footer div {
+    display: flex;
+    text-align: center;
+}

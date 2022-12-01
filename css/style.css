@@ -1,0 +1,93 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  margin: 0;
+  background-color: #efefee; }
+
+header {
+  background-color: #364552;
+  color: white;
+  padding: 3rem 2rem; }
+
+header h1 {
+  font-size: 4rem;
+  text-align: center; }
+
+.profesion {
+  text-align: center; }
+
+.container {
+  max-width: 400px;
+  margin: 0 auto; }
+
+.skills {
+  width: 70px;
+  margin: 20px 20px; }
+
+.gmmotos {
+  width: 300px;
+  border-radius: 5px; }
+
+section article {
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0;
+  cursor: pointer; }
+
+section article h2 {
+  text-align: center; }
+
+section article h2, section article p {
+  margin: 1rem; }
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3); }
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+footer {
+  background-color: #222;
+  padding: 3rem;
+  color: #fff; }
+  footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+
+.comienzo {
+  text-align: left; }
+
+.githubF {
+  width: 50px; }
+
+.linkedinF {
+  width: 50px; }
+
+footer a {
+  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none; }
+
+footer a:hover {
+  color: cornflowerblue; }
+
+footer div {
+  display: flex;
+  text-align: center; }
+
+@media (max-width: 505px) {
+  header h1 {
+    font-size: 40px; } }
+
+@media (max-width: 450px) {
+  article {
+    width: 300px; }
+  .gmmotos {
+    width: 200px; } }
