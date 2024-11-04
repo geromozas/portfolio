@@ -1,0 +1,39 @@
+.containerFooter {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.copyRight {
+  color: white;
+}
+
+.myDesign {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.redes {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gitHubFooter {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.linkedinFooter {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.mailFooter {
+  width: 40px;
+  margin-bottom: 10px;
+}

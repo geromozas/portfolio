@@ -1,0 +1,40 @@
+.boxHome {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.presentation {
+  flex-direction: column;
+  color: white;
+  width: 500px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.profession {
+  color: #1976d2;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: large;
+}
+
+.botones {
+  display: flex;
+  margin-top: 15px;
+}
+
+.linkedin {
+  margin-right: 15px;
+}
+
+.profilePhoto {
+  width: 300px;
+  border-radius: 100px;
+}
