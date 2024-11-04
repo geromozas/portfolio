@@ -36,7 +36,7 @@ const Home = () => {
           <Link to="/">
             <img
               className="profilePhoto"
-              src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1729957404/gero3_fpwqxt.png"
+              src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730749619/portfolio/gero3_e1pzgk.png"
               alt="foto-cv"
             />
           </Link>
