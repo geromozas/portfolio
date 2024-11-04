@@ -1,7 +1,7 @@
 import Navbar from "./components/layout/navbar/Navbar.jsx";
 import "./App.css";
 import Home from "./components/pages/home/Home.jsx";
-import AboutMe from "./components/pages/Aboutme/AboutMe.jsx";
+import AboutMe from "./components/pages/aboutMe/AboutMe.jsx";
 import Projects from "./components/pages/projects/Projects.jsx";
 import Skills from "./components/pages/skills/Skills.jsx";
 import Service from "./components/pages/service/Service.jsx";
