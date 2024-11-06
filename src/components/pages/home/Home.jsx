@@ -8,10 +8,13 @@ const Home = () => {
         <div className="presentation">
           <h1>Geronimo Mozas</h1>
           <h3 className="profession">Programador Full Stack</h3>
-          <p>
+          <p className="textPresentation">
             Soy un desarrollador apasionado por crear soluciones web innovadoras
-            y eficientes. Con experiencia en tecnologías frontend y backend, me
-            especializo en construir aplicaciones web robustas y escalables.
+            y eficientes, especializado en frontend. Tengo experiencia en
+            tecnologías de frontend y backend, me enfoco en construir
+            aplicaciones web robustas y escalables. Aunque mi especialidad es el
+            desarrollo frontend, estoy abierto a explorar nuevas oportunidades y
+            desafíos en distintas áreas del desarrollo web.
           </p>
           <div className="botones">
             <div className="linkedin">

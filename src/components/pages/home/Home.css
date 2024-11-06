@@ -1,7 +1,7 @@
 .boxHome {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 80px;
 }
 
@@ -9,6 +9,7 @@
   flex-direction: column;
   color: white;
   width: 500px;
+  margin-right: 350px;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-p {
+.textPresentation {
   font-size: large;
 }
 
@@ -37,4 +38,37 @@ p {
 .profilePhoto {
   width: 300px;
   border-radius: 100px;
+}
+
+@media (max-width: 1300px) {
+  .profilePhoto {
+    width: 250;
+  }
+  .presentation {
+    margin-right: 150px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .boxHome {
+    flex-direction: column;
+  }
+  .profilePhoto {
+    width: 200px;
+  }
+  .presentation {
+    width: 550px;
+    text-align: justify;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .presentation {
+    width: 400px;
+  }
+  .textPresentation {
+    font-size: 15px;
+  }
 }

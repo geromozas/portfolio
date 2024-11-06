@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <>
       <div id="boxProjects">
-        <h2 className="section">Proyectos</h2>
+        <h2 className="titleProjects">Proyectos</h2>
         <div className="projects">
           <div className="project-container">
             <a
@@ -42,7 +42,6 @@ const Projects = () => {
               </div>
             </a>
           </div>
-
           <div className="project-container">
             <a href="https://sleep-good-react.vercel.app/" target="_blank">
               <img

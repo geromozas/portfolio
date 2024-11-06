@@ -2,14 +2,16 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+}
+
+.titleSkills {
+  margin-top: 100px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 35px;
 }
 
 .section {
-  margin-top: 100px;
-}
-
-.seccion {
   color: black;
   justify-self: center;
   margin-bottom: 20px;
@@ -18,14 +20,36 @@
 }
 
 .subBoxSkills {
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
   border-radius: 20px;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .subBoxSkills > div {
   display: flex;
   justify-content: center;
+}
+
+.boxFrontend {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.subBoxFrontend {
+  display: flex;
+}
+
+.boxBackend {
+  margin-right: 50px;
+}
+
+.boxTolls {
+  flex-direction: column;
+  align-items: center;
 }
 
 .skill {
@@ -39,7 +63,44 @@
   transition: 0.5s;
 }
 
+.technology {
+  flex-wrap: wrap;
+}
+
 .skill:hover {
   width: 150px;
   height: 150px;
+}
+
+@media (max-width: 1000px) {
+  .skill {
+    width: 80px;
+    height: 80px;
+  }
+  .subBoxSkills {
+    width: 700px;
+  }
+  .subBoxFrontend {
+    flex-direction: column;
+  }
+  .subBoxSkills2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxBackend {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .titleSkills {
+    font-size: 25px;
+  }
+  .section {
+    font-size: 20px;
+  }
+  .skill {
+    width: 50px;
+    height: 50px;
+  }
 }
