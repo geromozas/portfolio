@@ -13,6 +13,7 @@ const Navbar = () => {
               color="primary"
               variant="outlined"
               size={isSmallScreen ? "small" : "large"}
+              sx={{ marginBottom: "20px" }}
             >
               Sobre Mí
             </Button>

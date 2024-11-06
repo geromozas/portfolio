@@ -46,8 +46,8 @@ const Skills = () => {
             </div>
           </div>
           <div className="subBoxSkills2">
+            <h3 className="section">Backend</h3>
             <div className="boxBackend">
-              <h3 className="section">Backend</h3>
               <div className="technology">
                 <img
                   src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213726/portfolio/nodejs_wxhmm7.png"
@@ -61,8 +61,8 @@ const Skills = () => {
                 />
               </div>
             </div>
+            <h3 className="section">Base de Datos</h3>
             <div className="boxDataBase">
-              <h3 className="section">Base de Datos</h3>
               <div className="technology">
                 <img
                   src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/mongodb_vwzcp0.png"
@@ -76,25 +76,25 @@ const Skills = () => {
                 />
               </div>
             </div>
-          </div>
-          <div className="boxTolls">
             <h3 className="section">Herramientas y Otros</h3>
-            <div className="technology">
-              <img
-                src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/git_baum67.png"
-                alt="git"
-                className="skill"
-              />
-              <img
-                src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/github_z8yinv.png"
-                alt="gitHub"
-                className="skill"
-              />
-              <img
-                src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/postman_x2vrjj.png"
-                alt="postman"
-                className="skill"
-              />
+            <div className="boxTolls">
+              <div className="technology">
+                <img
+                  src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/git_baum67.png"
+                  alt="git"
+                  className="skill"
+                />
+                <img
+                  src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/github_z8yinv.png"
+                  alt="gitHub"
+                  className="skill"
+                />
+                <img
+                  src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730213725/portfolio/postman_x2vrjj.png"
+                  alt="postman"
+                  className="skill"
+                />
+              </div>
             </div>
           </div>
         </div>

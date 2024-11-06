@@ -65,6 +65,7 @@
 
 .technology {
   flex-wrap: wrap;
+  display: flex;
 }
 
 .skill:hover {
@@ -82,6 +83,7 @@
   }
   .subBoxFrontend {
     flex-direction: column;
+    margin-left: 20px;
   }
   .subBoxSkills2 {
     flex-direction: column;
@@ -89,6 +91,13 @@
   }
   .boxBackend {
     margin-right: 0px;
+    margin-left: 20px;
+  }
+  .boxDataBase {
+    margin-left: 20px;
+  }
+  .boxTolls {
+    margin-left: 20px;
   }
 }
 
