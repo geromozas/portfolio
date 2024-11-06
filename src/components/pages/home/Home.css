@@ -70,5 +70,12 @@ h1 {
   }
   .textPresentation {
     font-size: 15px;
+    width: 350px;
+  }
+  .profession {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
