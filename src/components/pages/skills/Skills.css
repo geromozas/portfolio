@@ -1,17 +1,12 @@
-#boxSkills {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.titleSkills {
+#titleSkills {
   margin-top: 100px;
   color: white;
   margin-bottom: 20px;
   font-size: 35px;
+  justify-self: center;
 }
 
-.section {
+.titleSectionSkill {
   color: black;
   justify-self: center;
   margin-bottom: 20px;
@@ -19,59 +14,56 @@
   font-size: 25px;
 }
 
-.subBoxSkills {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  border-radius: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
-}
-
-.subBoxSkills > div {
-  display: flex;
-  justify-content: center;
-}
-
-.boxFrontend {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-
-.subBoxFrontend {
-  display: flex;
-}
-
-.boxBackend {
-  margin-right: 50px;
-}
-
+.boxFrontend,
+.boxBackend,
+.boxDataBase,
 .boxTolls {
-  flex-direction: column;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .skill {
   width: 100px;
   height: 100px;
   padding: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 20px;
   background-color: white;
   border-radius: 10px;
   transition: 0.5s;
 }
 
-.technology {
-  flex-wrap: wrap;
-  display: flex;
+@media (max-width: 1000px) {
+  .skill {
+    width: 80px;
+    height: 80px;
+  }
+  .boxSkills {
+    width: 400px;
+    justify-self: center;
+  }
 }
 
-.skill:hover {
-  width: 150px;
-  height: 150px;
+@media (max-width: 600px) {
+  #titleSkills {
+    font-size: 25px;
+  }
+  .titleSectionSkill {
+    font-size: 20px;
+  }
+  .boxSkills {
+    width: 300px;
+  }
+  .skill {
+    width: 60px;
+    height: 60px;
+  }
 }
+
+/* 
 
 @media (max-width: 1000px) {
   .skill {
@@ -112,4 +104,4 @@
     width: 50px;
     height: 50px;
   }
-}
+} */

@@ -55,3 +55,9 @@
     width: 400px;
   }
 }
+
+@media (max-width: 500px) {
+  .boxAboutMe2 {
+    width: 300px;
+  }
+}

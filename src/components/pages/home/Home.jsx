@@ -4,11 +4,11 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <div className="boxHome">
-        <div className="presentation">
+      <div id="boxHome">
+        <div className="boxHomeText">
           <h1>Geronimo Mozas</h1>
           <h3 className="profession">Programador Full Stack</h3>
-          <p className="textPresentation">
+          <p className="homeText">
             Soy un desarrollador apasionado por crear soluciones web innovadoras
             y eficientes, especializado en frontend. Tengo experiencia en
             tecnologías de frontend y backend, me enfoco en construir
@@ -16,26 +16,22 @@ const Home = () => {
             desarrollo frontend, estoy abierto a explorar nuevas oportunidades y
             desafíos en distintas áreas del desarrollo web.
           </p>
-          <div className="botones">
-            <div className="linkedin">
-              <a
-                href="https://www.linkedin.com/in/geronimo-mozas-559207254/"
-                target="_blank"
-              >
-                <Button>Linkedin</Button>
-              </a>
-            </div>
-            <div className="cv">
-              <a
-                href="/cv-GeronimoMozas-FullStackDeveloper-2024.pdf"
-                download="cv-GeronimoMozas-FullStackDeveloper-2024.pdf"
-              >
-                <Button>CV</Button>
-              </a>
-            </div>
+          <div className="bottonsHome">
+            <a
+              href="https://www.linkedin.com/in/geronimo-mozas-559207254/"
+              target="_blank"
+            >
+              <Button>Linkedin</Button>
+            </a>
+            <a
+              href="/cv-GeronimoMozas-FullStackDeveloper-2024.pdf"
+              download="cv-GeronimoMozas-FullStackDeveloper-2024.pdf"
+            >
+              <Button>CV</Button>
+            </a>
           </div>
         </div>
-        <div className="myPicture">
+        <div className="boxHomePhoto">
           <Link to="/">
             <img
               className="profilePhoto"
