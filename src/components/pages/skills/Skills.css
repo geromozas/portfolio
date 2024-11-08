@@ -36,6 +36,11 @@
   transition: 0.5s;
 }
 
+.skill:hover {
+  width: 150px;
+  height: 150px;
+}
+
 @media (max-width: 1000px) {
   .skill {
     width: 80px;
