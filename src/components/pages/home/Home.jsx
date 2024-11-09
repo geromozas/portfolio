@@ -16,7 +16,7 @@ const Home = () => {
             desarrollo frontend, estoy abierto a explorar nuevas oportunidades y
             desafíos en distintas áreas del desarrollo web.
           </p>
-          <div className="bottonsHome">
+          <div className="buttonsHome">
             <a
               href="https://www.linkedin.com/in/geronimo-mozas-559207254/"
               target="_blank"

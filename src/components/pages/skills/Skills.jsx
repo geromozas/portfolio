@@ -3,8 +3,8 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <div className="boxSkills">
-        <h2 id="titleSkills">Habilidades</h2>
+      <div id="boxSkills">
+        <h2 className="titleSkills">Habilidades</h2>
         <h3 className="titleSectionSkill">Frontend</h3>
         <div className="boxFrontend">
           <img
