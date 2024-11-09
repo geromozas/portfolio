@@ -6,6 +6,13 @@
   justify-self: center;
 }
 
+.boxSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .titleSectionSkill {
   color: black;
   justify-self: center;
@@ -14,7 +21,7 @@
   font-size: 25px;
 }
 
-.boxFrontend,
+/* .boxFrontend,
 .boxBackend,
 .boxDataBase,
 .boxTolls {
@@ -22,7 +29,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-}
+} */
 
 .skill {
   width: 100px;
@@ -46,10 +53,6 @@
     width: 80px;
     height: 80px;
   }
-  .boxSkills {
-    width: 400px;
-    justify-self: center;
-  }
 }
 
 @media (max-width: 600px) {
@@ -59,54 +62,8 @@
   .titleSectionSkill {
     font-size: 20px;
   }
-  .boxSkills {
-    width: 300px;
-  }
   .skill {
     width: 60px;
     height: 60px;
   }
 }
-
-/* 
-
-@media (max-width: 1000px) {
-  .skill {
-    width: 80px;
-    height: 80px;
-  }
-  .subBoxSkills {
-    width: 700px;
-  }
-  .subBoxFrontend {
-    flex-direction: column;
-    margin-left: 20px;
-  }
-  .subBoxSkills2 {
-    flex-direction: column;
-    align-items: center;
-  }
-  .boxBackend {
-    margin-right: 0px;
-    margin-left: 20px;
-  }
-  .boxDataBase {
-    margin-left: 20px;
-  }
-  .boxTolls {
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 700px) {
-  .titleSkills {
-    font-size: 25px;
-  }
-  .section {
-    font-size: 20px;
-  }
-  .skill {
-    width: 50px;
-    height: 50px;
-  }
-} */
