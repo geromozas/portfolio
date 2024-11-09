@@ -44,13 +44,9 @@
 }
 
 .boxContact {
-  justify-self: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
-}
-
-.boxContact a {
-  color: white;
-  text-decoration: none !important;
 }
 
 @media (max-width: 1300px) {

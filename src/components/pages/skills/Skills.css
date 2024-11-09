@@ -9,7 +9,7 @@
 .boxSkills {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -19,6 +19,12 @@
   margin-bottom: 20px;
   color: #1976d2;
   font-size: 25px;
+}
+
+.boxFrontend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* .boxFrontend,
@@ -67,3 +73,10 @@
     height: 60px;
   }
 }
+
+/* @media (max-width: 500px) {
+  .boxFrontend {
+    width: 300px;
+    align-self: center;
+  }
+} */
