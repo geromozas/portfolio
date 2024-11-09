@@ -3,8 +3,9 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <h2 id="titleSkills">Habilidades</h2>
       <div className="boxSkills">
+        {" "}
+        <h2 id="titleSkills">Habilidades</h2>
         <h3 className="titleSectionSkill">Frontend</h3>
         <div className="boxFrontend">
           <img
@@ -38,7 +39,6 @@ const Skills = () => {
             className="skill"
           />
         </div>
-
         <h3 className="titleSectionSkill">Backend</h3>
         <div className="boxBackend">
           <img
