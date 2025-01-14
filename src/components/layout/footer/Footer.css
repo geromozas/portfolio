@@ -1,0 +1,65 @@
+.containerFooter {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+}
+
+.copyRight {
+  color: white;
+}
+
+.myDesign {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.redes {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gitHubFooter {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.linkedinFooter {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.mailFooter {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .containerFooter {
+    height: 100px;
+  }
+  .copyRight {
+    font-size: 10px;
+  }
+  .myDesign {
+    font-size: 10px;
+  }
+  .gitHubFooter {
+    width: 20px;
+  }
+  .linkedinFooter {
+    width: 20px;
+  }
+  .mailFooter {
+    width: 20px;
+  }
+  .redes {
+    margin-top: 10px;
+    width: 300px;
+  }
+}

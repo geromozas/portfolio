@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  margin-top: 35px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.buttonNav {
+  width: 200px;
+  height: 50px;
+}
+
+@media (max-width: 1300px) {
+  .buttonNav {
+    width: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .buttonNav {
+    width: 100px;
+    height: 30px;
+  }
+}

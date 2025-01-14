@@ -1,0 +1,65 @@
+#boxSkills {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.titleSkills {
+  margin-top: 100px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 35px;
+  justify-self: center;
+}
+
+.titleSectionSkill {
+  color: black;
+  justify-self: center;
+  margin-bottom: 20px;
+  color: #1976d2;
+  font-size: 25px;
+}
+
+.boxFrontend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.skill:hover {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 1000px) {
+  .skill {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  #titleSkills {
+    font-size: 25px;
+  }
+  .titleSectionSkill {
+    font-size: 20px;
+  }
+  .skill {
+    width: 60px;
+    height: 60px;
+  }
+}
