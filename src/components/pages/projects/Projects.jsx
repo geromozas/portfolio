@@ -43,10 +43,10 @@ const Projects = () => {
             </a>
           </div>
           <div className="project-container">
-            <a href="https://sleep-good-react.vercel.app/" target="_blank">
+            <a href="https://gm-motors-react.vercel.app/" target="_blank">
               <img
                 className="projectImg"
-                src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1730131111/portfolio/sleepgood-react_jhgs8p.png"
+                src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1736867813/portfolio/Captura_de_pantalla_2025-01-14_121602_syixxz.png"
                 alt=""
               />
               <div className="project-info">
