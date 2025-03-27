@@ -27,10 +27,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <p className="copyRight">
-          © 2024 Tu Nombre. Todos los derechos reservados.
-        </p>
-        <p className="myDesign">DESIGNED BY GERONIMO</p>
+        <p className="myDesign">DESIGNED BY GERONIMO MOZAS</p>
       </div>
     </>
   );
