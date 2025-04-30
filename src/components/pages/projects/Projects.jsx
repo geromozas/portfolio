@@ -19,7 +19,8 @@ const Projects = () => {
               <div className="project-info">
                 <p>
                   Pagina web con 5 secciones realizado para el proyecto final
-                  del curso Desarrollo web de Coderhouse.
+                  del curso Desarrollo web de Coderhouse. Utilice HTML, CSS,
+                  Sass.
                 </p>
               </div>
             </a>
@@ -37,7 +38,7 @@ const Projects = () => {
               <div className="project-info">
                 <p>
                   Pagina web estilo ecommerce realizado para el proyecto final
-                  del curso Javascript de Coderhouse.
+                  del curso Javascript de Coderhouse. Utilice HTML, CSS, JS.
                 </p>
               </div>
             </a>
@@ -52,7 +53,7 @@ const Projects = () => {
               <div className="project-info">
                 <p>
                   Ecommerce realizado para el proyecto final del curso React de
-                  Coderhouse.
+                  Coderhouse. Utilice HTML, CSS, JS, React.
                 </p>
               </div>
             </a>

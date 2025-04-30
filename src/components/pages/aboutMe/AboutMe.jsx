@@ -27,6 +27,10 @@ const AboutMe = () => {
             <li>Javascript - Coderhouse</li>
             <li>React - Coderhouse</li>
             <li>Backend - Coderhouse</li>
+            <li>
+              Workshop Ecommerce (React, Firebase y Mercado pago) - Profesor
+              Jorge M. Duje
+            </li>
             <li>Reparación de PC - ISEI</li>
           </ul>
         </div>
